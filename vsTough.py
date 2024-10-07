@@ -66,6 +66,23 @@ def howmanyAttacks(Attacks):
         output = int(Attacks)
     return output
 
+def totMath(Attacks, BallisticSkill, Damage, Strength, Toughness, Save, ArmorP, iterations):
+    damageList = []
+    for i in range(0,iterations):
+        AttacksTurn = howmanyAttacks(Attacks)
+        hits = rollHit(AttacksTurn,BallisticSkill)
+        hits = woundDice(hits,damageMod(Damage))
+        wounds = rollWound(hits,Strength,Toughness)
+        damageInflicted = saves(Save,ArmorP,wounds)
+        damageList.append(damageInflicted)
+    
+    totalDamage = 0
+    for i in range(0,iterations):
+        totalDamage += damageList[i]
+    
+    average = totalDamage / iterations
+    return average
+
 
 
 def mainloop():
@@ -78,27 +95,18 @@ def mainloop():
 
     iterations = 30000
 
-    toughvsdamage = []
+    toughandsave = []
+    x = []
     toughs = list(range(1,15))
     for Toughness in range(1,15):
-        damageList = []
-        for i in range(0,iterations):
-            AttacksTurn = howmanyAttacks(Attacks)
-            hits = rollHit(AttacksTurn,BallisticSkill)
-            hits = woundDice(hits,damageMod(Damage))
-            wounds = rollWound(hits,Strength,Toughness)
-            damageInflicted = saves(Save,ArmorP,wounds)
-            damageList.append(damageInflicted)
-        
-        totalDamage = 0
-        for i in range(0,iterations):
-            totalDamage += damageList[i]
-        
-        average = totalDamage / iterations
-        toughvsdamage.append(average)
-    plt.plot(toughs,toughvsdamage)
-    plt.grid()
-    plt.show()
+        for Save in range(1,15):
+            average = totMath(Attacks, BallisticSkill, Damage, Strength, Toughness, Save, ArmorP, iterations)
+            x.append(average)
+        toughandsave.append(x)
+    for i in range(0,14):
+        plt.plot(toughs,toughandsave[i])
+        plt.grid()
+        plt.show()
 
 
 mainloop()
