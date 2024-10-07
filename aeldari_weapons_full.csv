@@ -1,0 +1,20 @@
+Weapon Name,Attacks,BallisticSkill,Damage,Strength,ArmorP,Units
+Shuriken Cannon,3,3,D2,6,-1,5
+Bright Lance,1,3,D6+3,8,-4,1
+Starcannon,2,3,D3,7,-3,3
+Scatter Laser,4,3,1,6,0,10
+Pulse Laser,2,3,D6,9,-3,2
+Reaper Launcher,2,3,2,5,-2,6
+Prism Cannon (Dispersed),D6,3,2,6,-3,1
+Prism Cannon (Focused),1,3,D6+3,14,-5,1
+Aeldari Missile Launcher (Sunburst),D6,3,2,4,-1,3
+Aeldari Missile Launcher (Starshot),1,3,D6,8,-2,3
+Fusion Gun,1,3,D6,8,-4,2
+Fusion Pistol,1,3,D6,8,-4,4
+Wraithcannon,1,3,D3+3,10,-4,2
+D-Scythe,D6,3,1,10,-4,2
+D-Cannon,D3,3,D6+2,12,-4,1
+Hemlock Wraithfighter Heavy D-Scythe,2D6,3,2,12,-4,1
+Fire Prism Pulse Laser,D3+3,3,D6+2,10,-5,1
+Wraithlord Ghostglaive,4,3,D6+1,9,-3,1
+Swooping Hawk Lasblaster,4,3,1,3,0,10

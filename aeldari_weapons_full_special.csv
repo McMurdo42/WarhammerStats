@@ -1,0 +1,43 @@
+Weapon Name,Attacks,BallisticSkill,Damage,Strength,ArmorP,Units,Special
+Shuriken Catapult,Assault 2,3+,1,4,-1,12,Bladestorm
+Shuriken Cannon,Heavy 3,3+,2,6,-1,36,Bladestorm
+Starcannon,Heavy 2,3+,2,8,-3,36,-
+Bright Lance,Heavy 1,3+,D6,9,-4,36,-
+Fusion Gun,Assault 1,3+,D6+2,8,-4,12,Melta
+Scatter Laser,Heavy 6,3+,1,6,0,36,-
+D-Cannon,Heavy D3,3+,D6,12,-4,24,Blast, Devastating Wounds
+Prism Cannon (Focused),Heavy 1,3+,D6+3,14,-5,60,-
+Prism Cannon (Dispersed),Heavy D6,3+,2,10,-2,60,-
+Firepike,Assault 1,2+,D6+2,9,-4,12,Melta
+Aeldari Missile Launcher (Plasma),Heavy D6,3+,2,7,-2,48,Blast
+Aeldari Missile Launcher (Starshot),Heavy 1,3+,D6,8,-2,48,-
+Reaper Launcher (Starshot),Heavy 1,3+,D6,8,-2,48,-
+Reaper Launcher (Shuriken),Heavy 2,3+,2,5,-2,48,Shuriken
+Wraithcannon,Assault 1,3+,D3+3,14,-4,12,-
+Deathspinner,Assault D6,3+,1,6,0,12,-
+Falcon Pulse Laser,Heavy 2,3+,D6,9,-3,48,-
+Fire Prism Pulse Laser (Focused),Heavy 1,3+,D6+3,14,-5,60,-
+Fire Prism Pulse Laser (Dispersed),Heavy D6,3+,2,10,-2,60,-
+Warp Spider Death Spinner,Assault D6,3+,1,6,0,12,-
+Lasblaster,Assault 3,3+,1,3,0,24,-
+Haywire Blaster,Assault D3,3+,D3,3,-3,24,Hazardous
+Heat Lance,Assault 1,3+,D6+2,8,-4,18,Melta
+Twin Shuriken Catapult,Assault 4,3+,1,4,-1,24,Bladestorm
+Ranger Long Rifle,Heavy 1,2+,1,4,0,36,Mortal Wounds on 6 to Wound
+Twin Bright Lance,Heavy 2,3+,D6,9,-4,36,-
+Pulse Laser,Heavy 2,3+,D6,9,-3,48,-
+Wailing Doom (Shooting),Assault 1,2+,D6+2,12,-4,24,Psychic Weapon
+Phantasm Grenade Launcher,Assault D3,3+,1,4,0,18,Blast, Psychological Terror
+Monofilament Weave,Assault D6,3+,1,6,0,12,Hit Rolls of 6 cause AP-2
+Shrieker Cannon,Heavy 1,3+,2,5,-1,24,Mortal Wounds on 6 to Wound
+Sunburst Bomb,Assault D3,4+,2,5,-1,6,Blast
+Swooping Hawk Lasblaster,Assault 4,3+,1,3,0,24,-
+Fusion Pistol,Assault 1,3+,D6+2,8,-4,6,Melta
+Neuro Disruptor,Assault 1,3+,D3,4,-3,12,Mortal Wounds on 6 to Wound
+Sun Cannon,Heavy D6,3+,2,6,-2,48,Blast
+Tempest Launcher,Heavy D6+2,3+,1,4,-2,36,Indirect Fire
+Night Spinner Doomweaver (Dispersed),Heavy 2D6,3+,2,7,-2,48,Blast
+Night Spinner Doomweaver (Focused),Heavy 2,3+,D6+2,9,-4,48,-
+Crimson Hunter Pulse Laser,Heavy 2,2+,D6,9,-3,48,-
+Crimson Hunter Starcannon,Heavy 2,2+,2,8,-3,36,-
+Hemlock Wraithfighter Heavy D-Scythe,Heavy D6,3+,2,12,-4,16,Blast, Devastating Wounds
